@@ -1,0 +1,43 @@
+body{
+    background-color: black;
+}
+
+.card{
+    height: 300px;
+    width: 300px;
+    margin: 16px 30px ;
+    display: inline-block;
+    border-radius: 5px;
+    box-shadow: 2px 5px 10px blue;
+    transition: .7s;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(218, 218, 253);
+    font-size: larger;
+}
+
+.card:hover{
+
+    box-shadow: 10px 10px 40px gold;
+    color: gold;
+}
+.desc{
+    padding: 0 5px;
+}
+.desc h3 {
+    margin: 20px 0 10px 20px ;
+}
+
+p{
+    margin: 20px;
+}
+
+img{
+    width: 100%;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+
+}
+#kakashi{
+    height: 56.5%;
+}
+

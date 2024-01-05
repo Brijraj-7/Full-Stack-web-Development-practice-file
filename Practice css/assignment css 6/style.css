@@ -1,0 +1,104 @@
+.loader{
+    height: 120px;
+    width: 120px;
+    border: 16px solid #f3f3f3;
+    border-top: 16px solid goldenrod;
+    border-radius: 50%;
+    animation: spin 3s linear infinite ;
+    text-align: center;
+    margin: 0 auto;
+}
+
+h1{
+    text-align: center;
+}
+
+@keyframes spin{
+    0%{
+        transform: rotate(0deg);
+        background-color: red;
+        border-top: 16px solid black;
+
+    }
+
+    100%{
+        transform: rotate(360deg);
+        background-color: black;
+        border-top: 16px solid red;
+        color: red;
+        
+    }
+}
+
+#mine{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    border: 2px solid black;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(12, 1fr);
+    grid-gap: 10px;
+    text-align: center;
+}
+
+#mine div{
+    background-color: cornflowerblue;
+    font-size: 1.5rem;
+}
+
+.gr1{
+    grid-column: 1/span 12;
+}
+
+.gr3{
+    grid-row: 2/span 10;
+    grid-column: 1/span 3;
+}
+.gr2{
+    grid-column: 4/span 6;
+}
+
+.gr4{
+    grid-row: 3/span 9;
+    grid-column: 4/span 6;
+}
+
+.gr5{
+    grid-row: 2/span 10;
+    grid-column: 10/span 3;
+}
+
+.gr6{
+    grid-column: 1/span 12;
+}
+@media (max-width:720px) {
+    
+    .gr1{
+        grid-column: 1/span 12;
+    }
+
+    .gr2{
+        grid-column: 1/span 12;
+    }
+
+    .gr3{
+        grid-row: 3/span 9;
+        grid-column: 1/ span 3;
+    }
+
+    .gr4{
+        grid-row: 3/span 9;
+        grid-column: 4/span 9;
+    }
+
+    .gr5{
+        grid-row: 12/span 1;
+        grid-column: 1/span 3;
+    }
+
+    .gr6{
+        grid-row: 12/span 1;
+        grid-column: 4/span 9;
+    }
+}

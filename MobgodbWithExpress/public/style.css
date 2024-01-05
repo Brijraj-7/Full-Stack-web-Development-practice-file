@@ -1,0 +1,25 @@
+h3 {
+  text-align: center;
+}
+.chat {
+  background-color: aliceblue;
+
+  width: 300px;
+  margin: auto;
+  padding: 20px;
+  border-radius: 16px;
+  margin-bottom: 10px;
+}
+
+.mgs {
+  background-color: dodgerblue;
+  color: white;
+  padding: 5px 15px;
+  border-radius: 16px;
+}
+button {
+  background-color: aqua;
+  border-radius: 25px;
+  border: none;
+  padding: 10px 20px;
+}

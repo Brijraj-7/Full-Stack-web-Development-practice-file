@@ -1,0 +1,49 @@
+#fase{
+    height: 200px;
+    width: 200px;
+    background-color: yellow;
+    border-radius: 50%;
+    border: 2px solid black;
+    box-shadow: 5px 5px 100px rgb(121, 121, 245);
+    position: relative;
+    top: 50px;
+    left: 40%;
+    transition: 1s;
+}
+
+#fase:hover{
+    box-shadow: 5px 5px 100px yellow;
+    background-color: rgb(255, 193, 48);
+
+    
+}
+
+
+.eye{
+    height: 30px;
+    width: 30px;
+    background-color: black;
+    border-radius: 50%;
+    display: inline-block;
+    position: relative;
+    top: 60px;
+    left: 50px;
+   
+}
+
+#eye2{
+    margin-left: 35px ;
+}
+
+
+#mouth{
+    height: 30px;
+    width: 100px;
+    background-color: red;
+    position: relative;
+    top: 110px;
+    left: 50px;
+    border: 2px solid;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
